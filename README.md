@@ -1,6 +1,6 @@
 # Hawaiian Climate Analysis
 
-![image](images/hawaii.jpeg)
+![hawaii.jpg](images/hawaii.jpeg)
 
 ## Overview
 This analysis is a climate analysis for Hawaii for those who are planning a vacation. This overview section will explain where to find all files that were used to conduct this analysis. All files are found within the Surfsup folder. This folder contains a resources folder, an images folder, app.py, and climate.ipynb. The data folder will be broken down in the data section of this README. The images folder contains images used in this README. app.py is an app python file that is used to store the data. climate.ipynb is the main file for this analysis.
