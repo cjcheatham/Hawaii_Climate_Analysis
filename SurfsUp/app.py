@@ -46,7 +46,6 @@ def welcome():
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
         f"/api/v1.0/start<br/>"
-
         f"/api/v1.0/start/end"
     )
 
@@ -109,8 +108,8 @@ def tobs():
     temperatures = []
     for tobs, date in query_result:
         tobs_dict = {}
-        tobs_dict["date"] = date 
-        tobs_dict["tobs"] = tobs
+        tobs_dict["date"] = tobs
+        tobs_dict["tobs"] = date
         temperatures.append(tobs_dict)
     
     return jsonify(temperatures)     
